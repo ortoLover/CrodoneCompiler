@@ -5,16 +5,6 @@ data Token =
     -- Keywords
     If |
     Else |
-    Int |
-    Float |
-    Bool |
-    
-
-    -- Operators
-    Plus |
-    Sub |
-    Mult |
-    Div |
 
     -- Punctuation
     Comma |
@@ -24,9 +14,19 @@ data Token =
     LBrace |
     RBrace |
 
+    -- Operators
+    Plus |
+    Sub |
+    Mult |
+    Div |
 
-    --
+    -- Identifiers
+    Identifier |
 
+    -- Literals
+    StringLiteral String |
+    IntLiteral Int |
+    FloatLiteral Float |
     -- Other
     Undefined
     

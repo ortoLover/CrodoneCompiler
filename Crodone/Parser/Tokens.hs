@@ -1,4 +1,4 @@
-module Alpine.Parser.Tokens(
+module Crodone.Parser.Tokens(
     Token(..)
 ) where
 data Token =
